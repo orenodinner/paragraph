@@ -47,6 +47,8 @@ class Paragraph {
     this.api = api;
     this.readOnly = readOnly;
 
+    console.log("oreno_dinnerParagraph")
+
     this._CSS = {
       block: this.api.styles.block,
       wrapper: 'ce-paragraph'
