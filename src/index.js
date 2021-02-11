@@ -180,6 +180,10 @@ class Paragraph {
     };
   }
 
+  static get enableLineBreaks() {
+    return true
+  }
+
   /**
    * Sanitizer rules
    */
