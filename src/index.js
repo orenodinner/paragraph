@@ -193,6 +193,8 @@ class Paragraph {
     return {
       text: {
         br: true,
+        b:true,
+        div: true,
       }
     };
   }
